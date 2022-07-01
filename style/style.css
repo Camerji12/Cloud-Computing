@@ -9,16 +9,15 @@ body {
 }
 
 .title,
-h1 {
+h1,
+a {
   text-align: center;
   font-size: 45px;
+  text-decoration: none;
+  color: white;
 }
-.title {
-  color: rgb(28, 20, 177);
-  text-decoration: underline;
-}
+.title,
 .title1 {
-  color: rgb(2, 2, 2);
   text-decoration: underline;
 }
 .text,
