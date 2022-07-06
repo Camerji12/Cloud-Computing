@@ -2,4 +2,4 @@
 
 In this repository I will list all the learning content from module 210.
 
-In this module we work with Nginx, Sandbox, Redhat etc.
+In this module we work with Nginx, Docekr, Sandbox, Redhat etc.
