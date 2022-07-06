@@ -11,3 +11,10 @@ services:
       - 23306:3306
     environment:
       MARIADB_ROOT_PASSWORD: zli1234
+
+  phpmyadmin:
+    image: phpmyadmin:5.2
+    ports:
+      - 6969:80
+    environment:
+      PMA_HOST: database
