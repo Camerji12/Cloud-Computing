@@ -1,0 +1,6 @@
+version: '3.9'
+services:
+  nginx:
+    image: ghcr.io/camerji12/mynginx
+    ports:
+      - 8080:80
