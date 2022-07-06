@@ -1,6 +1,13 @@
-version: '3.9'
+version: "3.9"
 services:
   nginx:
     image: ghcr.io/camerji12/mynginx
     ports:
       - 8080:80
+
+  db:
+    image: mariadb:10
+    ports:
+      - 23306:3306
+    environment:
+      MARIADB_ROOT_PASSWORD: zli1234
