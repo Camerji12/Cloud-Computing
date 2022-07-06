@@ -15,6 +15,6 @@ services:
   phpmyadmin:
     image: phpmyadmin:5.2
     ports:
-      - 6969:80
+      - 42069:80
     environment:
       PMA_HOST: database
